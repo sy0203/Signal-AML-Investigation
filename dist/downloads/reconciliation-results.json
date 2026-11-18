@@ -1,0 +1,34 @@
+{
+  "dataset": "Signal fictional investigation scenario",
+  "rows": 16,
+  "unique_transaction_ids": 16,
+  "incoming_transfers": 14,
+  "outgoing_transfers": 2,
+  "incoming_counterparties": 8,
+  "incoming_cad": 19600,
+  "outgoing_cad": 17800,
+  "scenario_weekly_baseline_cad": 7600,
+  "incoming_to_baseline_ratio": 2.5789473684210527,
+  "outgoing_to_incoming_percent": 90.81632653061224,
+  "minutes_after_last_inflow": [
+    44,
+    79
+  ],
+  "daily_incoming_cad": {
+    "2026-11-07": 2750,
+    "2026-11-08": 3050,
+    "2026-11-09": 2650,
+    "2026-11-10": 3050,
+    "2026-11-11": 2550,
+    "2026-11-12": 2850,
+    "2026-11-13": 2700
+  },
+  "python_sql_agree": true,
+  "limitations": [
+    "One synthetic case",
+    "No ground-truth laundering labels",
+    "Assumed baseline and rule",
+    "No tracing of specific funds",
+    "No model or business-impact evaluation"
+  ]
+}

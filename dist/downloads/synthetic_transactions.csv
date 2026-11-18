@@ -1,0 +1,17 @@
+id,date,time,direction,counterparty,amount,currency,channel,customer,synthetic
+TX-2001,2026-11-07,10:10,Incoming,Counterparty 01,1250,CAD,Transfer,C-0184,True
+TX-2002,2026-11-07,15:40,Incoming,Counterparty 02,1500,CAD,Transfer,C-0184,True
+TX-2003,2026-11-08,10:10,Incoming,Counterparty 03,1450,CAD,Transfer,C-0184,True
+TX-2004,2026-11-08,15:40,Incoming,Counterparty 04,1600,CAD,Transfer,C-0184,True
+TX-2005,2026-11-09,10:10,Incoming,Counterparty 05,1250,CAD,Transfer,C-0184,True
+TX-2006,2026-11-09,15:40,Incoming,Counterparty 06,1400,CAD,Transfer,C-0184,True
+TX-2007,2026-11-10,10:10,Incoming,Counterparty 07,1750,CAD,Transfer,C-0184,True
+TX-2008,2026-11-10,15:40,Incoming,Counterparty 08,1300,CAD,Transfer,C-0184,True
+TX-2009,2026-11-11,10:10,Incoming,Counterparty 01,1100,CAD,Transfer,C-0184,True
+TX-2010,2026-11-11,15:40,Incoming,Counterparty 02,1450,CAD,Transfer,C-0184,True
+TX-2011,2026-11-12,10:10,Incoming,Counterparty 03,1500,CAD,Transfer,C-0184,True
+TX-2012,2026-11-12,15:40,Incoming,Counterparty 04,1350,CAD,Transfer,C-0184,True
+TX-2013,2026-11-13,10:10,Incoming,Counterparty 05,1400,CAD,Transfer,C-0184,True
+TX-2014,2026-11-13,19:30,Incoming,Counterparty 06,1300,CAD,Transfer,C-0184,True
+TX-2015,2026-11-13,20:14,Outgoing,Counterparty 09,10200,CAD,Transfer,C-0184,True
+TX-2016,2026-11-13,20:49,Outgoing,Counterparty 10,7600,CAD,Transfer,C-0184,True
