@@ -2,7 +2,7 @@
 
 A synthetic, interactive portfolio project by Seyoung Yoo. It connects an AML-style alert to customer context, transaction evidence, an understandable trigger and a recorded next step.
 
-**Live project:** https://signal-aml-seyoung-yoo.kindblossom2.chatgpt.site
+**Live project:** https://sy0203.github.io/Signal-AML-Investigation
 
 **Portfolio:** https://seyoungyoo.ca/ · **Author profile:** https://github.com/sy0203
 
@@ -39,7 +39,7 @@ Google Fonts supplies Geist, Instrument Serif and IBM Plex Mono. System fallback
 - `dist/downloads/` — synthetic CSV, reconciliation script, SQL, dictionary, review kit and visual case study
 - `tests/domain.test.mjs` — data agreement, timing, totals, blocked closure, request validation and persistence
 
-The downloadable source archive excludes itself to avoid recursive packaging. Its source-download link therefore targets the hosted project's archive when run locally.
+The downloadable source archive excludes itself to avoid recursive packaging. The hosted site links to this GitHub repository; the archive is also retained as a portable source download.
 
 ## Reproducible scenario results
 
@@ -65,6 +65,7 @@ Original model-performance figures are omitted from this extension until split a
 ## Design and evaluation
 
 - [Editable Figma case study](https://www.figma.com/design/dkEoiSYV0oFdGOOTforATu?node-id=18-859)
+- [Editable Figma backup](dist/downloads/Signal_Figma_Updated.fig)
 - [Figma prototype](https://www.figma.com/proto/dkEoiSYV0oFdGOOTforATu/Signal-AML?node-id=3-1977&scaling=scale-down&page-id=0%3A1)
 - [Case study PDF](dist/downloads/Signal_Case_Study.pdf)
 - [Practitioner review kit](dist/downloads/INVESTIGATOR_REVIEW.md)
@@ -77,7 +78,9 @@ Technical verification is documented in `VERIFICATION.md`. No investigator inter
 - [UI system and design rationale](docs/UI_SYSTEM.md)
 - [Source repository](https://github.com/sy0203/Signal-AML-Investigation)
 
-To publish under a GitHub address, open repository Settings -> Pages, choose GitHub Actions, then run the **Publish Signal to GitHub Pages** workflow from the Actions tab. It is manual so adding these files does not change hosting automatically. Verification runs on pushes and pull requests.
+GitHub Pages publishes the contents of `dist/`. The **Verify Signal** workflow checks pushes and pull requests. The **Publish Signal to GitHub Pages** workflow tests and deploys changes pushed to `main`; it can also be run manually from the Actions tab. No paid hosting or custom domain is needed.
+
+The live address is https://sy0203.github.io/Signal-AML-Investigation/. A custom subdomain can be connected later if the domain owner's DNS settings are available.
 
 ## Credits
 

@@ -18,5 +18,5 @@ with ZipFile(output, 'w', ZIP_DEFLATED) as archive:
             archive.write(file, file.relative_to(ROOT).as_posix())
 with ZipFile(output) as archive:
     assert archive.testzip() is None
-    assert not any(name.startswith(('.openai/', '.git/', 'source-analysis/', 'job-application/')) for name in archive.namelist())
+    assert all(not name.startswith('.') or name.startswith(('.github/', '.gitattributes', '.gitignore')) for name in archive.namelist())
 print(f'Public package: {output} ({output.stat().st_size:,} bytes)')

@@ -27,7 +27,7 @@ The follow-up date must be a real calendar date on or after the scenario review 
 - `signal-aml-demo-v1` is the localStorage key. State includes a version, current hypothetical evidence flag and ordered decision records.
 - Each record captures ID, outcome, rationale, actual browser save time, demo reviewer and evidence flag. Information requests add item, responsible reviewer and due date.
 - The latest record determines the queue status. Previous records retain their own evidence snapshot.
-- The form draft stays in memory while switching views. A reload restores saved decisions, not unsaved drafts.
+- The form draft stays in memory while switching views. A reload restores saved decisions, not unsaved drafts. Changing the decision type preserves the entered rationale; using an example explicitly replaces it.
 - Invalid or incompatible saved JSON restores the initial scenario. If storage is unavailable, the page reports session-only storage and offers export.
 - Reset affects only this prototype's storage key. The browser asks for confirmation first.
 

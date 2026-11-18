@@ -39,3 +39,9 @@ Checked in the Chromium browser at the normal desktop size and a 390 × 844 mobi
 One synthetic customer and one alert. No live model, backend, accounts, document upload, collaboration, actual requests or durable audit trail. Local storage and download behavior depend on the browser. No screen-reader audit, representative user study, broad browser/device matrix, legal assessment or operational AML validation was performed. No claims about review speed, detection effectiveness or business impact follow from these checks.
 
 The practitioner review guide is prepared but has not been run. Original model evaluations are not reproduced and are excluded from this extension's result claims.
+
+## Final publication checks
+
+The final revision preserves typed rationale when changing the selected decision outcome, makes wide data tables keyboard-focusable, and uses the GitHub Pages address as its canonical URL. All three decision paths, reload persistence, filters, exports and narrow layouts are checked again before handoff. Changing `main` now runs verification and publishes the static site automatically.
+
+Final browser results: all three outcomes pass; information-request fields reject missing values; closure rejects unverified evidence and accepts the explicit hypothetical variant; rationale survives outcome changes; saved status survives reload; exported CSV uses the documented True flag; JSON retains the evidence snapshot. At 390px and 768px, page width remains within the viewport. The final checked console has no captured errors or warnings.

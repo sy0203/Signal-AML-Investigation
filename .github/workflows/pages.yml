@@ -1,5 +1,12 @@
 name: Publish Signal to GitHub Pages
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
+      - '.github/workflows/pages.yml'
+      - 'package.json'
+      - 'tests/**'
   workflow_dispatch:
 permissions:
   contents: read
@@ -20,6 +27,10 @@ jobs:
         with:
           node-version: '22'
       - run: npm test
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python dist/downloads/reconcile.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
