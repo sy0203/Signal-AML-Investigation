@@ -17,7 +17,7 @@ The Python standard-library reconciliation script independently compares the sam
 
 ## Browser walkthrough
 
-Checked in the Codex in-app Chromium browser at the normal desktop size and a 390 × 844 mobile viewport:
+Checked in the Chromium browser at the normal desktop size and a 390 × 844 mobile viewport:
 
 - Queue search, empty state and clearing filters.
 - Customer overview, totals and interactive daily bars.

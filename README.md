@@ -1,8 +1,8 @@
 # Signal — AML investigation workflow
 
-A synthetic, interactive portfolio project by Seyoung Yoo, built with AI assistance. It connects an AML-style alert to customer context, transaction evidence, an understandable trigger and a recorded next step.
+A synthetic, interactive portfolio project by Seyoung Yoo. It connects an AML-style alert to customer context, transaction evidence, an understandable trigger and a recorded next step.
 
-**Live project:** (soon)
+**Live project:** https://signal-aml-seyoung-yoo.kindblossom2.chatgpt.site
 
 **Portfolio:** https://seyoungyoo.ca/ · **Author profile:** https://github.com/sy0203
 
@@ -71,6 +71,14 @@ Original model-performance figures are omitted from this extension until split a
 
 Technical verification is documented in `VERIFICATION.md`. No investigator interview or usability study has been completed. No improvement in review time, detection quality or false-positive rate is claimed. Intended audience: initial alert-review analysts. Organizational policy, permissions, privacy, document handling, accessibility with assistive technology and regulatory suitability need additional validation before any operational use.
 
+## Project documentation
+
+- [Engineering handoff](docs/ENGINEERING_HANDOFF.md)
+- [UI system and design rationale](docs/UI_SYSTEM.md)
+- [Source repository](https://github.com/sy0203/Signal-AML-Investigation)
+
+To publish under a GitHub address, open repository Settings -> Pages, choose GitHub Actions, then run the **Publish Signal to GitHub Pages** workflow from the Actions tab. It is manual so adding these files does not change hosting automatically. Verification runs on pushes and pull requests.
+
 ## Credits
 
-Project framing and portfolio direction: Seyoung Yoo. Design, synthetic scenario, documentation and code developed with AI assistance. Original IMI analytics: team challenge context; individual contributions should be described only where personally supportable. No affiliation or endorsement is implied by the extension.
+Project framing and portfolio direction: Seyoung Yoo. Original IMI analytics: team challenge context; individual contributions should be described only where personally supportable. No affiliation or endorsement is implied by the extension.
