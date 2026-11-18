@@ -2,7 +2,7 @@
 
 A synthetic, interactive portfolio project by Seyoung Yoo, built with AI assistance. It connects an AML-style alert to customer context, transaction evidence, an understandable trigger and a recorded next step.
 
-**Live project:** https://signal-aml-seyoung-yoo.kindblossom2.chatgpt.site
+**Live project:** (soon)
 
 **Portfolio:** https://seyoungyoo.ca/ · **Author profile:** https://github.com/sy0203
 
