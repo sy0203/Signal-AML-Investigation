@@ -45,3 +45,7 @@ The practitioner review guide is prepared but has not been run. Original model e
 The final revision preserves typed rationale when changing the selected decision outcome, makes wide data tables keyboard-focusable, and uses the GitHub Pages address as its canonical URL. All three decision paths, reload persistence, filters, exports and narrow layouts are checked again before handoff. Changing `main` now runs verification and publishes the static site automatically.
 
 Final browser results: all three outcomes pass; information-request fields reject missing values; closure rejects unverified evidence and accepts the explicit hypothetical variant; rationale survives outcome changes; saved status survives reload; exported CSV uses the documented True flag; JSON retains the evidence snapshot. At 390px and 768px, page width remains within the viewport. The final checked console has no captured errors or warnings.
+
+## Design presentation refresh — 18 November 2026
+
+Replaced the unsupported-claims table with three demonstrable workflow outcomes. Added the authored Figma iteration board, clearer resource hierarchy, larger editorial type and a matching portfolio feature. At 390px, detail tabs form a two-column group; at 768px, the customer and evidence panels stack without page overflow. Blank rationale rejection, saving escalation and outgoing-transaction filtering were checked in the browser after the refresh. All six domain tests and independent Python/SQL reconciliation pass. No practitioner session was conducted.
